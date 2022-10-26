@@ -4,29 +4,36 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .header .header__img {
   width: 100%;
 }
+
 .header .header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { 
-  text-align: center;
+
+  .header { 
+    text-align: center;
+  }
+
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .add-item__input,
 .task__label,
 .task__input {
@@ -34,19 +41,24 @@
   display: inline-block;
   flex-grow: 1
 }
+
 .add-item__input-container {
   display: flex;
 }
+
 .tasks-list {
   margin:0;
   padding: 0px;
 }
+
 .task, .title_style {
   list-style:none;
 }
-input,.btn_style{
+
+.input_style,.btn_style{
   outline:none;
 }
+
 .btn_style {
   background: none;
   border: 0px;
@@ -56,9 +68,11 @@ input,.btn_style{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .btn_style:hover {
   color: #3a3A3a;
 }
+
 /* Heading */
 .title_style,
 .add-item__label {
@@ -70,6 +84,7 @@ input,.btn_style{
   margin: 0;
   text-transform: uppercase;
 }
+
 .input_style {
   margin: 0;
   font-size: 18px;
@@ -82,6 +97,7 @@ input,.btn_style{
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .add-item__input:focus {
   color: #333;
 }
@@ -91,6 +107,7 @@ input,.btn_style{
   display: block;
   margin: 0 0 20px;
 }
+
 .add-item__input {
   width: 318px;
 }
@@ -100,11 +117,11 @@ input,.btn_style{
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .task > * {
   vertical-align: middle;
 }
@@ -112,21 +129,25 @@ input,.btn_style{
 .task > .task__checkbox {
   margin: 0 10px;
 }
+
 .task > .task__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task > .task__input {
   width: 226px
 }
-button.task__btn-delete .task__delete-img {
+
+.btn_style.task__btn-delete .task__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.task__btn-delete .task__delete-img:hover {
+
+.btn_style.task__btn-delete .task__delete-img:hover {
   transform: rotateZ(0);
 }
 
