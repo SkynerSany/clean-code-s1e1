@@ -57,11 +57,11 @@
 }
 
 .input_style,
-.btn_style {
+.btn-style {
   outline: none;
 }
 
-.btn_style {
+.btn-style {
   background: none;
   border: 0px;
   color: #888;
@@ -71,7 +71,7 @@
   cursor: pointer;
 }
 
-.btn_style:hover {
+.btn-style:hover {
   color: #3a3a3a;
 }
 
